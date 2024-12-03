@@ -1,0 +1,65 @@
+#about {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+}
+
+.aboutname * {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 0;
+  font-size: 80px;
+}
+
+.aboutabt {
+  color: #888;
+}
+
+.meabt {
+  color: white;
+  text-shadow: -1px -1px 0 #888, 1px -1px 0 #888, -1px 1px 0 #888,
+    1px 1px 0 #888;
+  margin-top: -25px;
+  padding-left: 115px;
+}
+
+.aboutparts {
+  display: flex;
+
+  flex-direction: column;
+  width: 50vw;
+  gap: 5rem;
+}
+
+.cardsabt {
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+}
+.oneabt {
+  padding: 20px 20px 20px 20px;
+  border: 1px solid;
+  border-radius: 30px;
+  align-content: center;
+  width: fit-content;
+  justify-content: space-around;
+  overflow: hidden;
+  vgap: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.oneabt:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.descabt p {
+  text-align: justify;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}

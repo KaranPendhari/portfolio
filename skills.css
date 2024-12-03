@@ -1,0 +1,52 @@
+#skills {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+}
+
+.skillname * {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 0;
+  font-size: 80px;
+}
+
+.skill {
+  color: #888;
+}
+
+.expertise {
+  color: white;
+  text-shadow: -1px -1px 0 #888, 1px -1px 0 #888, -1px 1px 0 #888,
+    1px 1px 0 #888;
+  margin-top: -25px;
+}
+
+.skillssector {
+  display: flex;
+  gap: 2rem;
+}
+
+.skillgroup {
+  border: black solid 1px;
+  border-radius: 20px;
+  padding: 2rem;
+  height: fit-content;
+}
+
+.skilltitle {
+  font-weight: bold;
+}
+
+.skilldesctitle {
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+.skilldescitems {
+  font-weight: 300;
+}
