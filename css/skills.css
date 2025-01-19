@@ -13,16 +13,16 @@
   letter-spacing: 0.5px;
   margin-top: 0;
   font-size: 80px;
+  color: #E7F6F2; 
 }
 
 .skill {
-  color: #888;
+  color: #A5C9CA; 
 }
 
 .expertise {
-  color: white;
-  text-shadow: -1px -1px 0 #888, 1px -1px 0 #888, -1px 1px 0 #888,
-    1px 1px 0 #888;
+  color: #E7F6F2; 
+  text-shadow: -1px -1px 0 #888, 1px -1px 0 #888, -1px 1px 0 #888, 1px 1px 0 #888;
   margin-top: -25px;
 }
 
@@ -32,21 +32,26 @@
 }
 
 .skillgroup {
-  border: black solid 1px;
+  border: 1px solid #395B64; 
   border-radius: 20px;
   padding: 2rem;
   height: fit-content;
+  background-color: #2C3333; 
+  color: #E7F6F2; 
 }
 
 .skilltitle {
   font-weight: bold;
+  color: #E7F6F2; 
 }
 
 .skilldesctitle {
   font-weight: bold;
   padding-top: 1rem;
+  color: #A5C9CA; 
 }
 
 .skilldescitems {
   font-weight: 300;
+  color: #A5C9CA; 
 }

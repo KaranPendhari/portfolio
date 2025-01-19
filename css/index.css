@@ -2,7 +2,13 @@
   padding: 0px;
   margin: 0px;
   font-family: "Roboto", system-ui;
+  color: #E7F6F2; /* Highlight color for text */
 }
+
+body {
+  background-color: #2C3333; /* Primary dark background */
+}
+
 .navbar {
   font-size: 26px;
   font-weight: 700;
@@ -12,6 +18,8 @@
   align-items: center;
   letter-spacing: 1px;
   text-transform: uppercase;
+  background-color: #395B64; 
+  color: #E7F6F2; 
 }
 
 .logo:hover {
@@ -28,11 +36,11 @@
 }
 
 .menu li a {
-  color: #333;
+  color: #A5C9CA; 
   text-decoration: none;
   font-size: 16px;
 }
 
 .menu a:hover {
-  color: #e00f00;
+  color: #E7F6F2; 
 }

@@ -12,15 +12,16 @@
   letter-spacing: 0.5px;
   margin-top: 0;
   font-size: 80px;
+  color: #E7F6F2; 
 }
+
 .projectsabt {
-  color: #888;
+  color: #A5C9CA; 
 }
 
 .meprojects {
-  color: white;
-  text-shadow: -1px -1px 0 #888, 1px -1px 0 #888, -1px 1px 0 #888,
-    1px 1px 0 #888;
+  color: #E7F6F2; 
+  text-shadow: -1px -1px 0 #888, 1px -1px 0 #888, -1px 1px 0 #888, 1px 1px 0 #888;
   margin-top: -25px;
   padding-left: 0px;
 }
@@ -32,16 +33,15 @@
   gap: 8rem;
 }
 
-.container:hover {
-}
-
 .card {
   width: 300px;
-  border: 1px solid #ccc;
+  border: 1px solid #395B64;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #2C3333; 
+  color: #E7F6F2; 
 }
 
 .card:hover {
@@ -54,16 +54,20 @@
   height: 150px;
   object-fit: cover;
 }
+
 .card-content {
   padding: 15px;
   text-align: center;
 }
+
 .card-title {
   font-size: 1.5em;
   margin-bottom: 10px;
   font-weight: bold;
+  color: #E7F6F2; 
 }
+
 .card-description {
   font-size: 1em;
-  color: #555;
+  color: #A5C9CA; 
 }

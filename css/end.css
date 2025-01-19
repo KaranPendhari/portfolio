@@ -1,6 +1,6 @@
 footer {
-  background-color: #222;
-  color: #fff;
+  background-color: #2C3333; 
+  color: #E7F6F2; 
   text-align: center;
   padding: 15px;
   font-family: Arial, sans-serif;
@@ -14,7 +14,7 @@ footer {
 .footer-container p {
   margin: 0;
   font-size: 14px;
-  color: #bbb;
+  color: #A5C9CA;
 }
 
 .socials {
@@ -27,12 +27,12 @@ footer {
 }
 
 .socials a {
-  color: #fff;
+  color: #E7F6F2; 
   text-decoration: none;
   font-size: 14px;
   transition: color 0.3s ease;
 }
 
 .socials a:hover {
-  color: #ffa500;
+  color: #A5C9CA; 
 }
