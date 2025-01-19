@@ -7,8 +7,10 @@
   text-align: center;
 }
 
+
 .homelogo img {
   width: 150px;
+  border-radius: 150px;
 }
 
 .homename * {
@@ -21,6 +23,11 @@
 
 .buttonlinks {
   margin-top: 1rem;
+}
+
+.buttonlinks a{
+  text-decoration: none;
+  
 }
 
 .buttonlinks button {
