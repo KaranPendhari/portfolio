@@ -14,15 +14,15 @@
 }
 
 .homename * {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .homename {
-  margin-bottom: 2rem;
+  margin-top: 10px;
 }
 
 .buttonlinks {
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
 .buttonlinks a{
@@ -65,8 +65,8 @@
 
 .socialmedia {
   display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
 .socialmedia img {
