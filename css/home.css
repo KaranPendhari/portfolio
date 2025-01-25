@@ -58,7 +58,143 @@
   color: #E7F6F2; 
 }
 
+.buttonlinks button:nth-child(2):h/* Home Section */
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 83vh;
+  text-align: center;
+  padding: 1rem; /* Added padding for better spacing on smaller screens */
+}
+
+.homelogo img {
+  width: 150px;
+  border-radius: 50%; /* Ensures a perfect circle */
+  transition: transform 0.3s ease;
+}
+
+.homelogo img:hover {
+  transform: scale(1.1); /* Adds a hover effect for interactivity */
+}
+
+.homename * {
+  margin-top: 10px;
+}
+
+.homename {
+  margin-top: 10px;
+  padding: 0 1rem; /* Adjusts spacing for smaller screens */
+}
+
+.buttonlinks {
+  margin-top: 3rem;
+}
+
+.buttonlinks a {
+  text-decoration: none;
+}
+
+.buttonlinks button {
+  width: 160px;
+  height: 60px;
+  border-radius: 30px;
+  margin: 0 0.5rem;
+  font-size: large;
+  transition: all 0.4s ease;
+}
+
+.buttonlinks button:nth-child(1) {
+  border: 1px solid #A5C9CA;
+  background-color: #E7F6F2;
+  color: #2C3333;
+}
+
+.buttonlinks button:nth-child(1):hover {
+  background-color: #A5C9CA;
+  color: #E7F6F2;
+}
+
+.buttonlinks button:nth-child(2) {
+  border: 1px solid #395B64;
+  background-color: #395B64;
+  color: #E7F6F2;
+}
+
 .buttonlinks button:nth-child(2):hover {
+  background-color: #E7F6F2;
+  color: #395B64;
+}
+
+.socialmedia {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap; /* Allows icons to wrap on smaller screens */
+}
+
+.socialmedia img {
+  width: 5vh;
+  transition: transform 0.3s ease;
+}
+
+.socialmedia img:hover {
+  transform: scale(1.2); /* Adds a hover effect for interactivity */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #home {
+    height: auto; /* Adjusts height for smaller screens */
+    padding: 2rem 1rem; /* Adds padding for better spacing */
+  }
+
+  .homelogo img {
+    width: 120px; /* Reduces logo size for smaller screens */
+  }
+
+  .homename h1 {
+    font-size: 1.8rem; /* Adjusts name size */
+  }
+
+  .homename p {
+    font-size: 1rem; /* Adjusts smaller text size */
+  }
+
+  .buttonlinks button {
+    width: 140px; /* Reduces button width */
+    height: 50px; /* Reduces button height */
+    font-size: medium;
+    margin: 0.5rem 0; /* Adds vertical spacing for buttons */
+  }
+
+  .socialmedia {
+    gap: 1rem; /* Reduces gap between icons */
+    justify-content: center;
+  }
+
+  .socialmedia img {
+    width: 4vh; /* Reduces icon size */
+  }
+}
+
+@media (max-width: 480px) {
+  .homename h1 {
+    font-size: 1.5rem; /* Further reduces name size */
+  }
+
+  .buttonlinks {
+    flex-direction: column; /* Stacks buttons vertically */
+    gap: 1rem; /* Adds spacing between buttons */
+  }
+
+  .buttonlinks button {
+    width: 100%; /* Makes buttons take full width */
+    max-width: 300px; /* Ensures a reasonable max width */
+  }
+}
+ver {
   background-color: #E7F6F2; 
   color: #395B64; 
 }

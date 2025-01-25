@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   gap: 15rem;
+  padding: 2rem;
 }
 
 .aboutname * {
@@ -13,15 +14,15 @@
   letter-spacing: 0.5px;
   margin-top: 0;
   font-size: 80px;
-  color: #E7F6F2; /* Highlight color for the title */
+  color: #E7F6F2;
 }
 
 .aboutabt {
-  color: #A5C9CA; /* Accent color for the description text */
+  color: #A5C9CA;
 }
 
 .meabt {
-  color: #E7F6F2; /* Highlight color for the name */
+  color: #E7F6F2;
   text-shadow: -1px -1px 0 #888, 1px -1px 0 #888, -1px 1px 0 #888, 1px 1px 0 #888;
   margin-top: -25px;
   padding-left: 115px;
@@ -42,7 +43,7 @@
 
 .oneabt {
   padding: 20px;
-  border: 1px solid #395B64; 
+  border: 1px solid #395B64;
   border-radius: 30px;
   align-content: center;
   width: fit-content;
@@ -50,8 +51,8 @@
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background-color: #2C3333; 
-  color: #E7F6F2; 
+  background-color: #2C3333;
+  color: #E7F6F2;
 }
 
 .oneabt:hover {
@@ -63,5 +64,60 @@
   text-align: justify;
   line-height: 1.6;
   letter-spacing: 1px;
-  color: #A5C9CA; 
+  color: #A5C9CA;
+}
+
+@media (max-width: 768px) {
+  #about {
+    flex-direction: column;
+    gap: 5rem;
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .aboutname * {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .meabt {
+    padding-left: 0;
+  }
+
+  .aboutparts {
+    width: 100%;
+    gap: 3rem;
+  }
+
+  .cardsabt {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .oneabt {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .descabt p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutname * {
+    font-size: 40px;
+  }
+
+  .oneabt {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .descabt p {
+    font-size: 12px;
+    line-height: 1.2;
+  }
 }

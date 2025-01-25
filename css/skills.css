@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   gap: 15rem;
+  padding: 2rem;
 }
 
 .skillname * {
@@ -13,15 +14,15 @@
   letter-spacing: 0.5px;
   margin-top: 0;
   font-size: 80px;
-  color: #E7F6F2; 
+  color: #E7F6F2;
 }
 
 .skill {
-  color: #A5C9CA; 
+  color: #A5C9CA;
 }
 
 .expertise {
-  color: #E7F6F2; 
+  color: #E7F6F2;
   text-shadow: -1px -1px 0 #888, 1px -1px 0 #888, -1px 1px 0 #888, 1px 1px 0 #888;
   margin-top: -25px;
 }
@@ -32,26 +33,67 @@
 }
 
 .skillgroup {
-  border: 1px solid #395B64; 
+  border: 1px solid #395B64;
   border-radius: 20px;
   padding: 2rem;
   height: fit-content;
-  background-color: #2C3333; 
-  color: #E7F6F2; 
+  background-color: #2C3333;
+  color: #E7F6F2;
 }
 
 .skilltitle {
   font-weight: bold;
-  color: #E7F6F2; 
+  color: #E7F6F2;
 }
 
 .skilldesctitle {
   font-weight: bold;
   padding-top: 1rem;
-  color: #A5C9CA; 
+  color: #A5C9CA;
 }
 
 .skilldescitems {
   font-weight: 300;
-  color: #A5C9CA; 
+  color: #A5C9CA;
+}
+
+@media (max-width: 768px) {
+  #skills {
+    flex-direction: column;
+    gap: 3rem;
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .skillname * {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .skillssector {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .skillgroup {
+    width: 90%;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skillname * {
+    font-size: 40px;
+  }
+
+  .skillgroup {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .skilldesctitle,
+  .skilldescitems {
+    font-size: 14px;
+  }
 }

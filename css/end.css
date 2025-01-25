@@ -1,6 +1,7 @@
+/* Base Styles */
 footer {
-  background-color: #2C3333; 
-  color: #E7F6F2; 
+  background-color: #2C3333;
+  color: #E7F6F2;
   text-align: center;
   padding: 15px;
   font-family: Arial, sans-serif;
@@ -27,12 +28,50 @@ footer {
 }
 
 .socials a {
-  color: #E7F6F2; 
+  color: #E7F6F2;
   text-decoration: none;
   font-size: 14px;
   transition: color 0.3s ease;
 }
 
 .socials a:hover {
-  color: #A5C9CA; 
+  color: #A5C9CA;
+}
+
+
+@media (max-width: 768px) {
+  .footer-container {
+    max-width: 90%; 
+  }
+
+  .footer-container p {
+    font-size: 13px; 
+  }
+
+  .socials {
+    gap: 10px; 
+  }
+
+  .socials a {
+    font-size: 13px; 
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    padding: 10px; 
+  }
+
+  .footer-container p {
+    font-size: 12px; 
+  }
+
+  .socials {
+    flex-direction: column; 
+    gap: 8px; 
+  }
+
+  .socials a {
+    font-size: 12px; 
+  }
 }
