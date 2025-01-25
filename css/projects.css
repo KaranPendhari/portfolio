@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 2rem; 
+  gap: 2rem;
 }
 
 .projectsname * {
@@ -28,12 +28,12 @@
 
 .container {
   display: flex;
-  gap: 3rem; 
+  gap: 3rem;
   justify-content: center;
 }
 
 .card {
-  width: 300px; 
+  width: 300px;
   border: 1px solid #395B64;
   border-radius: 10px;
   overflow: hidden;
@@ -71,29 +71,28 @@
   color: #A5C9CA;
 }
 
-
 @media (max-width: 1024px) {
   #projects {
     flex-direction: column;
-    height: auto; 
+    height: auto;
     padding: 2rem 1rem;
   }
 
   .projectsname * {
-    font-size: 60px; 
+    font-size: 60px;
     text-align: center;
   }
 
   .container {
-    gap: 2rem; 
+    gap: 2rem;
   }
 
   .card {
-    width: 280px; 
+    width: 280px;
   }
 
   .card img {
-    height: 130px; 
+    height: 130px;
   }
 }
 
@@ -103,17 +102,17 @@
   }
 
   .projectsname * {
-    font-size: 50px; 
+    font-size: 50px;
   }
 
   .container {
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     gap: 1.5rem;
     justify-content: center;
   }
 
   .card {
-    width: 240px; 
+    width: 240px;
   }
 
   .card img {
@@ -127,7 +126,7 @@
   }
 
   .projectsname * {
-    font-size: 40px; 
+    font-size: 40px;
   }
 
   .container {
@@ -137,7 +136,7 @@
 
   .card {
     width: 100%;
-    max-width: 300px; 
+    max-width: 300px;
   }
 
   .card img {

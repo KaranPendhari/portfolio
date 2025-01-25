@@ -5,78 +5,17 @@
   align-items: center;
   height: 83vh;
   text-align: center;
-}
-
-
-.homelogo img {
-  width: 150px;
-  border-radius: 150px;
-}
-
-.homename * {
-  margin-top: 10px;
-}
-
-.homename {
-  margin-top: 10px;
-}
-
-.buttonlinks {
-  margin-top: 3rem;
-}
-
-.buttonlinks a{
-  text-decoration: none;
-  
-}
-
-.buttonlinks button {
-  width: 160px;
-  height: 60px;
-  border-radius: 30px;
-  margin: 0 0.5rem;
-  font-size: large;
-  transition: all 0.4s ease;
-}
-
-
-.buttonlinks button:nth-child(1) {
-  border: 1px solid #A5C9CA; 
-  background-color: #E7F6F2; 
-  color: #2C3333; 
-}
-
-.buttonlinks button:nth-child(1):hover {
-  background-color: #A5C9CA; 
-  color: #E7F6F2; 
-}
-
-
-.buttonlinks button:nth-child(2) {
-  border: 1px solid #395B64; 
-  background-color: #395B64; 
-  color: #E7F6F2; 
-}
-
-.buttonlinks button:nth-child(2):h/* Home Section */
-#home {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 83vh;
-  text-align: center;
-  padding: 1rem; /* Added padding for better spacing on smaller screens */
+  padding: 1rem;
 }
 
 .homelogo img {
   width: 150px;
-  border-radius: 50%; /* Ensures a perfect circle */
+  border-radius: 50%;
   transition: transform 0.3s ease;
 }
 
 .homelogo img:hover {
-  transform: scale(1.1); /* Adds a hover effect for interactivity */
+  transform: scale(1.1);
 }
 
 .homename * {
@@ -85,7 +24,7 @@
 
 .homename {
   margin-top: 10px;
-  padding: 0 1rem; /* Adjusts spacing for smaller screens */
+  padding: 0 1rem;
 }
 
 .buttonlinks {
@@ -131,7 +70,7 @@
   display: flex;
   gap: 2rem;
   margin-top: 2rem;
-  flex-wrap: wrap; /* Allows icons to wrap on smaller screens */
+  flex-wrap: wrap;
 }
 
 .socialmedia img {
@@ -140,71 +79,56 @@
 }
 
 .socialmedia img:hover {
-  transform: scale(1.2); /* Adds a hover effect for interactivity */
+  transform: scale(1.2);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   #home {
-    height: auto; /* Adjusts height for smaller screens */
-    padding: 2rem 1rem; /* Adds padding for better spacing */
+    height: auto;
+    padding: 2rem 1rem;
   }
 
   .homelogo img {
-    width: 120px; /* Reduces logo size for smaller screens */
+    width: 120px;
   }
 
   .homename h1 {
-    font-size: 1.8rem; /* Adjusts name size */
+    font-size: 1.8rem;
   }
 
   .homename p {
-    font-size: 1rem; /* Adjusts smaller text size */
+    font-size: 1rem;
   }
 
   .buttonlinks button {
-    width: 140px; /* Reduces button width */
-    height: 50px; /* Reduces button height */
+    width: 140px;
+    height: 50px;
     font-size: medium;
-    margin: 0.5rem 0; /* Adds vertical spacing for buttons */
+    margin: 0.5rem 0;
   }
 
   .socialmedia {
-    gap: 1rem; /* Reduces gap between icons */
+    gap: 1rem;
     justify-content: center;
   }
 
   .socialmedia img {
-    width: 4vh; /* Reduces icon size */
+    width: 4vh;
   }
 }
 
 @media (max-width: 480px) {
   .homename h1 {
-    font-size: 1.5rem; /* Further reduces name size */
+    font-size: 1.5rem;
   }
 
   .buttonlinks {
-    flex-direction: column; /* Stacks buttons vertically */
-    gap: 1rem; /* Adds spacing between buttons */
+    flex-direction: column;
+    gap: 1rem;
   }
 
   .buttonlinks button {
-    width: 100%; /* Makes buttons take full width */
-    max-width: 300px; /* Ensures a reasonable max width */
+    width: 100%;
+    max-width: 300px;
   }
-}
-ver {
-  background-color: #E7F6F2; 
-  color: #395B64; 
-}
-
-.socialmedia {
-  display: flex;
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.socialmedia img {
-  width: 5vh;
 }
